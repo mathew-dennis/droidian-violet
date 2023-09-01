@@ -1,0 +1,14 @@
+# This file has been generated automatically by droidian-new-device
+
+# oneplus oneplus6
+oneplus_oneplus6:
+  type: image
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 28
+  use_internal_repository: true
+
+  packages:
+    - adaptation-oneplus-oneplus6
+    - adaptation-oneplus-oneplus6-configs
