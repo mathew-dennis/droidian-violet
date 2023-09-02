@@ -12,3 +12,4 @@ oneplus_oneplus6:
   packages:
     - adaptation-oneplus-oneplus6
     - adaptation-oneplus-oneplus6-configs
+    - linux-android-oneplus-oneplus6
