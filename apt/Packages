@@ -33,14 +33,14 @@ Source: linux-android-oneplus-oneplus6
 Version: 0.0.0+git20210628095313.340c5bb.droidian
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 67745
+Installed-Size: 67761
 Pre-Depends: flash-bootimage (>= 4)
 Depends: linux-image-4.9-112-oneplus-oneplus6 (= 0.0.0+git20210628095313.340c5bb.droidian)
 Filename: ./linux-bootimage-4.9-112-oneplus-oneplus6_0.0.0+git20210628095313.340c5bb.droidian_arm64.deb
-Size: 66275268
-MD5sum: 6f3429ce180bdf06fb3591140144ec93
-SHA1: 237974d9b06f83b1305668d2a4b81344ee00f805
-SHA256: f076da776979cce58576d0974446b09233ed63d9961e491e3653e4223691c597
+Size: 66289612
+MD5sum: 077f97ddd9949a32d281b5520579bce0
+SHA1: 8da95d93604d984f99e55ac19a31f9ee908090a4
+SHA256: b2dbe39a8e3d6f48afeedb11f6894020fba0b14a5537fef5690c215808ec7f2f
 Section: kernel
 Priority: optional
 Description: Linux kernel for Oneplus 6/6T - Android Boot Image
@@ -71,13 +71,13 @@ Source: linux-android-oneplus-oneplus6
 Version: 0.0.0+git20210628095313.340c5bb.droidian
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 51269
+Installed-Size: 51276
 Depends: linux-image-4.9-112-oneplus-oneplus6 (= 0.0.0+git20210628095313.340c5bb.droidian)
 Filename: ./linux-headers-4.9-112-oneplus-oneplus6_0.0.0+git20210628095313.340c5bb.droidian_arm64.deb
-Size: 8460204
-MD5sum: 179c5cc2e4b127356a9b5dfbe2e6c762
-SHA1: 48e076b65bd77473902cc268aca2549e9496200e
-SHA256: 184e5aa77b3a5432977db296d12cb63f52e876a465b63b3a447216dc9212cd8a
+Size: 8460648
+MD5sum: 433a9db6a510185a51af1427950dbeba
+SHA1: 73e70376b0c7fb404d555367d72e8b5fb9223127
+SHA256: c307f2a05ed0e3570413c11df07dc204f3d8aeaa8069cc9073ca980d04e57466
 Section: kernel
 Priority: optional
 Description: Linux kernel for Oneplus 6/6T - Headers
@@ -105,12 +105,12 @@ Source: linux-android-oneplus-oneplus6
 Version: 0.0.0+git20210628095313.340c5bb.droidian
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 23453
+Installed-Size: 23462
 Filename: ./linux-image-4.9-112-oneplus-oneplus6_0.0.0+git20210628095313.340c5bb.droidian_arm64.deb
-Size: 16187980
-MD5sum: 4be3b6dbd18c978a3a32440a31db1d59
-SHA1: a1df3c7922e6ea13746f39ef9dc552f8eebcdd8f
-SHA256: 8732b82c662d457a116379086dacda096081ed6a2a08bec2613ad8361f4eec99
+Size: 16194136
+MD5sum: 1aed9ae8c29f80dcd2e9af1e78bf9a77
+SHA1: 7c47bab3e222f46c35a638e7118ab42766f96668
+SHA256: aa655a8737f3e956a4ae40812aa4a3028bcac9b58138ec696ddcdcfe8703ae5b
 Section: kernel
 Priority: optional
 Description: Linux kernel for Oneplus 6/6T
