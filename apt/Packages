@@ -1,0 +1,30 @@
+Package: adaptation-oneplus-oneplus6
+Version: 0.0.0+git20230901122725.da1b28d.bookworm
+Architecture: arm64
+Maintainer: TQMatvey <maybeetube@gmail.com>
+Installed-Size: 9
+Depends: adaptation-hybris-api28-phone, adaptation-oneplus-oneplus6-configs (= 0.0.0+git20230901122725.da1b28d.bookworm)
+Filename: ./adaptation-oneplus-oneplus6_0.0.0+git20230901122725.da1b28d.bookworm_arm64.deb
+Size: 2124
+MD5sum: 967c271f4722d8fd329f6b66e8cda55b
+SHA1: 5a20c6e6a8aade8db20af92022b114458ef90772
+SHA256: 5bede7edd3a3b5e1710d19e2fee41d2847f57064fc30e43fb86e33e71a2fb096
+Section: metapackages
+Priority: optional
+Description: Community adaptation for oneplus-oneplus6 - metapackage
+
+Package: adaptation-oneplus-oneplus6-configs
+Source: adaptation-oneplus-oneplus6
+Version: 0.0.0+git20230901122725.da1b28d.bookworm
+Architecture: arm64
+Maintainer: TQMatvey <maybeetube@gmail.com>
+Installed-Size: 24
+Filename: ./adaptation-oneplus-oneplus6-configs_0.0.0+git20230901122725.da1b28d.bookworm_arm64.deb
+Size: 3664
+MD5sum: 7a817eee8f0e0b1b3a68119da38b6593
+SHA1: 28ff29d64cfb0e93e708ab92208e25079e4e5db1
+SHA256: d495a799f60988d1c719853a42c59f2bea10d284bb6b7a27e5026e81a66b015b
+Section: metapackages
+Priority: optional
+Description: Community adaptation for oneplus-oneplus6 - adaptation configurations
+
