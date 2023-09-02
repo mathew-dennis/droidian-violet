@@ -28,3 +28,112 @@ Section: metapackages
 Priority: optional
 Description: Community adaptation for oneplus-oneplus6 - adaptation configurations
 
+Package: linux-bootimage-4.9-0-oneplus-oneplus6
+Source: linux-android-oneplus-oneplus6
+Version: 0.0.0+git20210628095313.340c5bb.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 65337
+Pre-Depends: flash-bootimage (>= 4)
+Depends: linux-image-4.9-0-oneplus-oneplus6 (= 0.0.0+git20210628095313.340c5bb.droidian)
+Filename: ./linux-bootimage-4.9-0-oneplus-oneplus6_0.0.0+git20210628095313.340c5bb.droidian_arm64.deb
+Size: 66127800
+MD5sum: 45fbfd7173791d648461eeb3501596b7
+SHA1: 5fc1460cda8482efe6f19444f769329fab240ec5
+SHA256: 748f96d90a8193c3392800def50d44526562baad313bddb0e38097fdd7d327c6
+Section: kernel
+Priority: optional
+Description: Linux kernel for Oneplus 6 - Android Boot Image
+ This package contains the Linux kernel for the Oneplus 6 device.
+ .
+ Note: This package ships an Android Boot Image bundled with Halium's
+ initramfs.
+
+Package: linux-bootimage-oneplus-oneplus6
+Source: linux-android-oneplus-oneplus6
+Version: 0.0.0+git20210628095313.340c5bb.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 464
+Depends: linux-bootimage-4.9-0-oneplus-oneplus6 (= 0.0.0+git20210628095313.340c5bb.droidian)
+Filename: ./linux-bootimage-oneplus-oneplus6_0.0.0+git20210628095313.340c5bb.droidian_arm64.deb
+Size: 469232
+MD5sum: 22ac4f98cb78e9fa70aae1099a5cc8fc
+SHA1: 19b59e8b83804b07228d08e94c08efe26c209b75
+SHA256: b070ec5cafcfba4f202273cba552cf29f40d71b87789323abafad4ca03c6da5f
+Section: kernel
+Priority: optional
+Description: Linux kernel for Oneplus 6 - Android Boot Image  (latest)
+ This package depends to the latest kernel bootimage available for the Oneplus 6.
+
+Package: linux-headers-4.9-0-oneplus-oneplus6
+Source: linux-android-oneplus-oneplus6
+Version: 0.0.0+git20210628095313.340c5bb.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 51269
+Depends: linux-image-4.9-0-oneplus-oneplus6 (= 0.0.0+git20210628095313.340c5bb.droidian)
+Filename: ./linux-headers-4.9-0-oneplus-oneplus6_0.0.0+git20210628095313.340c5bb.droidian_arm64.deb
+Size: 8457424
+MD5sum: dc20a63336320800cd91959e696fe5ec
+SHA1: a2fd0ae7a06cdfc43e00b9350b28669c12ca7876
+SHA256: 947794859ab0db603ea9596012f1cad1b6fa1c07ce1a6f16fec1a03047a9ebea
+Section: kernel
+Priority: optional
+Description: Linux kernel for Oneplus 6 - Headers
+ This package contains the Linux kernel headers for the Oneplus 6 device.
+
+Package: linux-headers-oneplus-oneplus6
+Source: linux-android-oneplus-oneplus6
+Version: 0.0.0+git20210628095313.340c5bb.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 464
+Depends: linux-headers-4.9-0-oneplus-oneplus6 (= 0.0.0+git20210628095313.340c5bb.droidian)
+Filename: ./linux-headers-oneplus-oneplus6_0.0.0+git20210628095313.340c5bb.droidian_arm64.deb
+Size: 469216
+MD5sum: b54de18a75e44281e625acccfd4175a3
+SHA1: f7959855289776f24d71a9b2c9c662b1255039a3
+SHA256: ab920dbb97f7127ba4130a761512916cb415ee3822646122c45b83087b23e4c5
+Section: kernel
+Priority: optional
+Description: Linux kernel for Oneplus 6 - Headers (latest)
+ This package depends to the latest kernel headers available for the Oneplus 6.
+
+Package: linux-image-4.9-0-oneplus-oneplus6
+Source: linux-android-oneplus-oneplus6
+Version: 0.0.0+git20210628095313.340c5bb.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 22250
+Filename: ./linux-image-4.9-0-oneplus-oneplus6_0.0.0+git20210628095313.340c5bb.droidian_arm64.deb
+Size: 16114088
+MD5sum: e33841491a3d9fda5f2335c221126e10
+SHA1: f2d2625121490bf98252a05c5c156d19f8069ae7
+SHA256: 2523da725a505661db761b53ef83f8eb06769970de3cf1aa8002bebceffc024b
+Section: kernel
+Priority: optional
+Description: Linux kernel for Oneplus 6
+ This package contains the Linux kernel for the Oneplus 6 device.
+ .
+ Note: This package only ships the kernel image and modules, you should probably
+ look at the linux-bootimage-4.9-0-oneplus-oneplus6 package for a bootimage suitable
+ for Android boot loaders.
+
+Package: linux-image-oneplus-oneplus6
+Source: linux-android-oneplus-oneplus6
+Version: 0.0.0+git20210628095313.340c5bb.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 464
+Depends: linux-image-4.9-0-oneplus-oneplus6 (= 0.0.0+git20210628095313.340c5bb.droidian)
+Filename: ./linux-image-oneplus-oneplus6_0.0.0+git20210628095313.340c5bb.droidian_arm64.deb
+Size: 469212
+MD5sum: 4395e6d24250ea325bd245d77e4b2084
+SHA1: b0e8be8dccf175980c3bb60010f6eac920548b27
+SHA256: 44361016688ae0e73246cda4f489f1142761f0177487932840865383493913e7
+Section: kernel
+Priority: optional
+Description: Linux kernel for Oneplus 6 (latest)
+ This package depends to the latest kernel image available for the Oneplus 6.
+
