@@ -1,29 +1,29 @@
 Package: adaptation-oneplus-oneplus6
-Version: 0.0.0+git20230901122725.da1b28d.bookworm
+Version: 0.0.0+git20230901122725.da1b28d.trixie
 Architecture: arm64
 Maintainer: TQMatvey <maybeetube@gmail.com>
 Installed-Size: 9
-Depends: adaptation-hybris-api28-phone, adaptation-oneplus-oneplus6-configs (= 0.0.0+git20230901122725.da1b28d.bookworm)
-Filename: ./adaptation-oneplus-oneplus6_0.0.0+git20230901122725.da1b28d.bookworm_arm64.deb
-Size: 2124
-MD5sum: 967c271f4722d8fd329f6b66e8cda55b
-SHA1: 5a20c6e6a8aade8db20af92022b114458ef90772
-SHA256: 5bede7edd3a3b5e1710d19e2fee41d2847f57064fc30e43fb86e33e71a2fb096
+Depends: adaptation-hybris-api28-phone, adaptation-oneplus-oneplus6-configs (= 0.0.0+git20230901122725.da1b28d.trixie)
+Filename: ./adaptation-oneplus-oneplus6_0.0.0+git20230901122725.da1b28d.trixie_arm64.deb
+Size: 2116
+MD5sum: 86904652bd71509eaaa10f1c7c2ddc52
+SHA1: aeb68e21cf9f0f70b81aeab4ad67469410126662
+SHA256: 76137b40cac1b913053b368950f404795d318176266c0293360e72c89cd55833
 Section: metapackages
 Priority: optional
 Description: Community adaptation for oneplus-oneplus6 - metapackage
 
 Package: adaptation-oneplus-oneplus6-configs
 Source: adaptation-oneplus-oneplus6
-Version: 0.0.0+git20230901122725.da1b28d.bookworm
+Version: 0.0.0+git20230901122725.da1b28d.trixie
 Architecture: arm64
 Maintainer: TQMatvey <maybeetube@gmail.com>
 Installed-Size: 24
-Filename: ./adaptation-oneplus-oneplus6-configs_0.0.0+git20230901122725.da1b28d.bookworm_arm64.deb
-Size: 3664
-MD5sum: 7a817eee8f0e0b1b3a68119da38b6593
-SHA1: 28ff29d64cfb0e93e708ab92208e25079e4e5db1
-SHA256: d495a799f60988d1c719853a42c59f2bea10d284bb6b7a27e5026e81a66b015b
+Filename: ./adaptation-oneplus-oneplus6-configs_0.0.0+git20230901122725.da1b28d.trixie_arm64.deb
+Size: 3660
+MD5sum: fa0c613fac52d7d59404a2ece67ecf1d
+SHA1: 0263181715e8a86eac527810561f3e4ca6633d62
+SHA256: 2989c7df00be01141cebfe172356c1a48f1aa6b9424b7980663626f221fd4906
 Section: metapackages
 Priority: optional
 Description: Community adaptation for oneplus-oneplus6 - adaptation configurations
@@ -33,14 +33,14 @@ Source: linux-android-oneplus-oneplus6
 Version: 0.0.0+git20210628095313.340c5bb.droidian
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 65337
+Installed-Size: 464
 Pre-Depends: flash-bootimage (>= 4)
 Depends: linux-image-4.9-0-oneplus-oneplus6 (= 0.0.0+git20210628095313.340c5bb.droidian)
 Filename: ./linux-bootimage-4.9-0-oneplus-oneplus6_0.0.0+git20210628095313.340c5bb.droidian_arm64.deb
-Size: 66127800
-MD5sum: 45fbfd7173791d648461eeb3501596b7
-SHA1: 5fc1460cda8482efe6f19444f769329fab240ec5
-SHA256: 748f96d90a8193c3392800def50d44526562baad313bddb0e38097fdd7d327c6
+Size: 469308
+MD5sum: 5bfe79c1e10e11f60d198aaf183ded60
+SHA1: 2a8ad004508e996b04ab6f3fc61fea5145db7b03
+SHA256: 0e4ec7d1d1b1308b28bf1e6b28efe647948d6e8aba7a0301ef379f3878568d20
 Section: kernel
 Priority: optional
 Description: Linux kernel for Oneplus 6 - Android Boot Image
@@ -71,13 +71,13 @@ Source: linux-android-oneplus-oneplus6
 Version: 0.0.0+git20210628095313.340c5bb.droidian
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 51269
+Installed-Size: 464
 Depends: linux-image-4.9-0-oneplus-oneplus6 (= 0.0.0+git20210628095313.340c5bb.droidian)
 Filename: ./linux-headers-4.9-0-oneplus-oneplus6_0.0.0+git20210628095313.340c5bb.droidian_arm64.deb
-Size: 8457424
-MD5sum: dc20a63336320800cd91959e696fe5ec
-SHA1: a2fd0ae7a06cdfc43e00b9350b28669c12ca7876
-SHA256: 947794859ab0db603ea9596012f1cad1b6fa1c07ce1a6f16fec1a03047a9ebea
+Size: 469216
+MD5sum: 5d0a0fae5911ac896785df1e5b5e54ed
+SHA1: cc97288741c438c299d3a34cc5ee2aca9d1d9ca6
+SHA256: 0af6185f55ea8c6101e64de805ceaefc4d532943bf010784e35b3b8375a92744
 Section: kernel
 Priority: optional
 Description: Linux kernel for Oneplus 6 - Headers
@@ -105,12 +105,12 @@ Source: linux-android-oneplus-oneplus6
 Version: 0.0.0+git20210628095313.340c5bb.droidian
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 22250
+Installed-Size: 464
 Filename: ./linux-image-4.9-0-oneplus-oneplus6_0.0.0+git20210628095313.340c5bb.droidian_arm64.deb
-Size: 16114088
-MD5sum: e33841491a3d9fda5f2335c221126e10
-SHA1: f2d2625121490bf98252a05c5c156d19f8069ae7
-SHA256: 2523da725a505661db761b53ef83f8eb06769970de3cf1aa8002bebceffc024b
+Size: 469304
+MD5sum: ca8e22e952251b4fb944c07556929a08
+SHA1: 15cfb9adfff9b0ecb4d163c76ee58f09818c7fc9
+SHA256: 48f29af0c4d42d4169711fdb8d93ee15eebe1f79aa6192e40f8187d02d5f534e
 Section: kernel
 Priority: optional
 Description: Linux kernel for Oneplus 6
