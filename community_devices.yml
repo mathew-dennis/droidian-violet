@@ -12,9 +12,9 @@ oneplus_oneplus6:
   packages:
     - adaptation-oneplus6
     - adaptation-oneplus6-configs
-    - linux-bootimage-4.9-0-oneplus6
+    - linux-bootimage-4.9-112-oneplus6
     - linux-bootimage-oneplus6
-    - linux-headers-4.9-0-oneplus6
+    - linux-headers-4.9-112-oneplus6
     - linux-headers-oneplus6
-    - linux-image-4.9-0-oneplus6
+    - linux-image-4.9-112-oneplus6
     - linux-image-oneplus6
