@@ -10,8 +10,8 @@ oneplus_oneplus6:
   use_internal_repository: false
 
   packages:
-    - adaptation-oneplus6
-    - adaptation-oneplus6-configs
+    - adaptation-oneplus-oneplus6
+    - adaptation-oneplus-oneplus6-configs
     - linux-bootimage-4.9-112-oneplus-oneplus6
     - linux-bootimage-oneplus-oneplus6
     - linux-headers-4.9-112-oneplus-oneplus6
