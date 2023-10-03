@@ -18,3 +18,4 @@ oneplus_oneplus6:
     - linux-headers-oneplus-oneplus6
     - linux-image-4.9-113-oneplus-oneplus6
     - linux-image-oneplus-oneplus6
+    - droidian-camera
