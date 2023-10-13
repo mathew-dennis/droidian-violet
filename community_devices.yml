@@ -20,7 +20,7 @@ oneplus_oneplus6:
     - linux-image-oneplus-oneplus6
     - droidian-camera
 
-oneplus_oneplus6:
+oneplus_oneplus6=cutie:
   type: image
   arch: arm64
   edition: cutie
