@@ -1,40 +1,40 @@
 # This file has been generated automatically by droidian-new-device
 
-# oneplus oneplus6
-oneplus_oneplus6:
+# xiaomi violet
+xiaomi_violet:
   type: image
   arch: arm64
   edition: phosh
   variant: phone
-  apilevel: 28
+  apilevel: 30
   use_internal_repository: false
 
   packages:
-    - adaptation-oneplus-oneplus6
-    - adaptation-oneplus-oneplus6-configs
-    - linux-bootimage-4.9-113-oneplus-oneplus6
-    - linux-bootimage-oneplus-oneplus6
-    - linux-headers-4.9-113-oneplus-oneplus6
-    - linux-headers-oneplus-oneplus6
-    - linux-image-4.9-113-oneplus-oneplus6
-    - linux-image-oneplus-oneplus6
+    - adaptation-xiaomi-violet
+    - adaptation-xiaomi-violet-configs
+    - linux-image-4.14.190-xiaomi-violet
+    - linux-bootimage-4.14.190-xiaomi-violet
+    - linux-headers-4.14.190-xiaomi-violet
+    - linux-headers-xiaomi-violet
+    - linux-image-xiaomi-violet
+    - linux-bootimage-xiaomi-violet
     - droidian-camera
 
-oneplus_oneplus6=cutie:
+xiaomi_violet=cutie:
   type: image
   arch: arm64
   edition: cutie
   variant: phone
-  apilevel: 28
+  apilevel: 30
   use_internal_repository: false
 
   packages:
-    - adaptation-oneplus-oneplus6
-    - adaptation-oneplus-oneplus6-configs
-    - linux-bootimage-4.9-113-oneplus-oneplus6
-    - linux-bootimage-oneplus-oneplus6
-    - linux-headers-4.9-113-oneplus-oneplus6
-    - linux-headers-oneplus-oneplus6
-    - linux-image-4.9-113-oneplus-oneplus6
-    - linux-image-oneplus-oneplus6
+    - adaptation-xiaomi-violet
+    - adaptation-xiaomi-violet-configs
+    - linux-image-4.14.190-xiaomi-violet
+    - linux-bootimage-4.14.190-xiaomi-violet
+    - linux-headers-4.14.190-xiaomi-violet
+    - linux-headers-xiaomi-violet
+    - linux-image-xiaomi-violet
+    - linux-bootimage-xiaomi-violet
     - droidian-camera
